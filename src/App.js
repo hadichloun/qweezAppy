@@ -1,11 +1,13 @@
 import { CssBaseline, Box, Container } from "@mui/material"
 import QuestionCard from "./QuestionCard"
+import { lightGreen } from "@mui/material/colors"
 
 function App() {
   return (
     <div>
       <CssBaseline />
       <Box sx={{
+        background: lightGreen[200],
         height: "100vh", display: "flex", 
         alignItems: "center"
       }}>

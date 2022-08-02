@@ -1,10 +1,15 @@
-import { CssBaseline } from "@mui/material"
+import { CssBaseline, Box, Container } from "@mui/material"
 import QuestionCard from "./QuestionCard"
 
 function App() {
   return (
     <div>
       <CssBaseline />
+      <Box sx={{
+        height: "100vh", display: "flex", 
+        alignItems: "center"
+      }}>
+        <Container maxWidth="sm">
       <QuestionCard question={{
         title: "Sample Question",
         options: [
@@ -16,6 +21,9 @@ function App() {
            } 
         ]
       }} questionNumber={1} />
+        </Container>
+      </Box>
+
       </div>
   );
 }

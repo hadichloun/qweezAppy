@@ -5,8 +5,17 @@ function App() {
   return (
     <div>
       <CssBaseline />
-      <QuestionCard />
-  
+      <QuestionCard question={{
+        title: "Sample Question",
+        options: [
+          {
+            description: "Answer 1"
+           },
+           {
+            description: "Answer 2"
+           } 
+        ]
+      }} questionNumber={1} />
       </div>
   );
 }

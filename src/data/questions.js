@@ -1,54 +1,54 @@
 const questions = [
     {
-        title: "What's the national flower of Japan?",
+        title: "What's my name?",
         options: [
             {
-                description: "Cherry Blossom",
+                description: "Hadi",
             },
             {
-                description: "Rose",
+                description: "Juan",
             },
             {
-                description: "Jasmine",
+                description: "Bobby",
             },
             {
-                description: "Lavender",
+                description: "Ben",
             }
         ],
         correctAnswer: 1
     },
     {
-        title: "What's the national animal of Australia?",
+        title: "Where do I currently live?",
         options: [
             {
-                description: "Lion"
+                description: "New York"
             },
             {
-                description: "Cat"
+                description: "Dallas"
             },
             {
-                description: "Red Kangaroo"
+                description: "Austin"
             },
             {
-                description: "Elephant"
+                description: "Seattle"
             }
         ],
         correctAnswer: 3
     },
     {
-        title: "Which of the following is used in pencils",
+        title: "Which company did I work as an intern?",
         options: [
             {
-                description: "Phosphorous"
+                description: "IBM"
             },
             {
-                description: "Silicon"
+                description: "Google"
             },
             {
-                description: "Charcoal"
+                description: "Snapchat"
             },
             {
-                description: "Graphite"
+                description: "Patient Studio"
             }
         ],
         correctAnswer: 4

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { CssBaseline, Box, Container } from "@mui/material";
-import { lightBlue } from "@mui/material/colors";
+import { lightGreen } from "@mui/material/colors";
 
 import QuestionCard from "./QuestionCard";
 import Result from "./Result";
@@ -30,10 +30,10 @@ function App() {
     <div>
       <CssBaseline />
       <Box sx={{
-        backgroundColor: lightBlue[500],
+        backgroundColor: lightGreen[200],
         height: "100vh", display: "flex", alignItems: "center"
       }}>
-        <Container maxWidth="sm">
+        <Container maxWidth="lg">
           {finishedQuiz ? <Result restartQuiz={restartQuiz} answers={answers} /> : <QuestionCard question={currentQuestion} questionNumber={currentQuestionIndex + 1}
             submitAnswer={submitAnswer} />}
 
